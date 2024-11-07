@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Exercici, formulari de registre</h1>
+
+    <form action="forms.html" method="get">
+        <div>
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" required>
+            <label for="llinatges">Llinatges:</label>
+            <input type="text" id="llinatges" required>
+        </div>
+        <div>
+            <label for="opcio-home">Home:</label>
+            <input type="radio" id="opcio-home">
+            <label for="opcio-dona">Dona:</label>
+            <input type="radio" id="opcio-dona">
+            <label for="opcio-altre">Altre:</label>
+            <input type="radio" id="opcio-altre">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="El teu mail" required>
+            <label for="contrasenya">Contrasenya:</label>
+            <input type="password" id="contrasenya" required
+            minlength="5" maxlength="10">
+        </div>
+        <div>
+            <label for="data">Data de Naixement:</label>
+            <input type="date" id="data">
+        </div>
+        <div>
+            <label for="acceptacio">Estic d'acord amb els termes i condicions</label>
+            <input type="checkbox" id="acceptacio">
+        </div>
+        <div>
+            <input type="submit" id="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>

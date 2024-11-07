@@ -1,0 +1,8 @@
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[typer="date"]:focus,
+textarea:focus {
+    border-color: rgb(0, 60, 255);
+    outline: none;
+}
